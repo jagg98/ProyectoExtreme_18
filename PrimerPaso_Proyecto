@@ -1,0 +1,32 @@
+Mi aplicacion NewSkateapp, Va a estar relacionada a un software en el cual podras obtener cualquier tipo de información relacionda con el skate, 
+ya sea noticias sobre este deporte, tablas, ruedas, rodamientos, trocks, tornillos, en fin un monten de información.
+el Usuarion podrá acceder desde una pagina web, alli se logeará; por el momento pienso que solo ingrese un nickname y su correo, la contraseña 
+no la tengo clara, quiero hacer que el mismo nick name sea la contra, por el momento, ya que el usuario no ingresará información confidencial, solo el correo
+pero por lo general lo haremos para hacer llegar información sobre el tipo de infomación que ha requerido, valga la redundancia.
+algo inovador que quiero hacer en mi aplicativo y es algo que las demas aplicaciones relaciodas contienen de alguna manera pero todas directamente
+es lo de la compra, me explico, como yo no me quiero meter con dinero en mi pagina, por el momento, entoces que si el usuario quiere adquirir 
+algun producto la pagina le habra un pestañita donde le recominde paginas donde puede adquirir el producto y listo eso por el momento
+
+TIPOS DE DATOS
+-logueo
+Nickname = text;
+Correo = text;
+-Tablas(Atributos en comun)
+seguramente tendria diferentes tablas de relación, ya que, por ejemplo cada producto, o las partes de las tablas tienen caracteristicas diferente, 
+aun así tienen cosas en comun, atributos, por ejemplo
+serial- Text= identificación de cada parte
+Marca- Text= es un atributo que todos tiene en comun pero hay que tener algo en cuenta y es que no todas las marcas venden todas las partes 
+             es decir, que hay marcas que solo se expecializan en una cosa
+-En especifico(Ejemplos)             
+talla- int= hay skate para cada tipo de persona de acuerdo a su talla de zapatos(solo en skate)
+Tamaño- int; hay trock para cada tipo de tabla, a bueno tambien hay que saber lo de las marcas, ya que hay una realacion
+rodamientos- text= de acuerdo al tipo de skate que te gusten hay un tipo de troks. Aunque me valla a enfocar en un tipo de tabla, siguen 
+                   existiendo tipos de rodamientos
+
+
+
+
+CONTINUARÁ....
+
+
+
